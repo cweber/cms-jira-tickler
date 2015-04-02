@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "CMS JIRA Tickler",
+    "version": "1.0",
+    "description": "This extension silently requests a page in the background on CMS's JIRA every few minutes in order to keep your login session from timing out.",
+    "content_scripts": [
+        {
+            "matches": ["https://jira.cms.gov/*"],
+            "js": ["cms-jira-tickler.js"]
+        }
+    ]
+}
