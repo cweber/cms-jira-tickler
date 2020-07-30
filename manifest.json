@@ -5,7 +5,7 @@
     "description": "This extension silently requests a page in the background on CMS's JIRA/Confluence every few minutes in order to keep your login session from timing out.",
     "content_scripts": [
         {
-            "matches": ["https://jira.cms.gov/*", "https://confluence.cms.gov/*"],
+            "matches": ["https://jira.cms.gov/*", "https://confluence.cms.gov/*", "https://miro.com/*"],
             "js": ["cms-jira-tickler.js"]
         }
     ]

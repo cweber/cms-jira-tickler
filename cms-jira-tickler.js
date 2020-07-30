@@ -2,7 +2,8 @@ var count = 0;
 var delay = 120 * 1000; // 2 minutes
 var pageToFetch = {
   "jira": "https://jira.cms.gov/secure/ViewProfile.jspa",
-  "confluence": "https://confluence.cms.gov/users/viewmyprofile.action"
+  "confluence": "https://confluence.cms.gov/users/viewmyprofile.action",
+  "miro": "https://miro.com/app/dashboard/"
 };
 var intervalID = null;
 
@@ -24,6 +25,8 @@ function tickleJIRA() {
     u = pageToFetch["confluence"];
   } else {
     u = pageToFetch["jira"];
+  } else {
+    u = pageToFetch["miro"];
   }
 
 	xhr.open("GET", u);
