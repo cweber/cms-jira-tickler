@@ -1,6 +1,6 @@
 # cms-jira-tickler
 
-cms-jira-tickler is a Chrome extension that periodically polls jira.cms.gov and confluence.cms.gov to prevent your session from terminating.
+cms-jira-tickler is a Chrome extension that periodically polls jira.cms.gov, confluence.cms.gov and miro.com to prevent your session from terminating.
 
 To install, clone the repository:
 
