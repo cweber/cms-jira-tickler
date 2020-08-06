@@ -3,7 +3,7 @@ var delay = 120 * 1000; // 2 minutes
 var pageToFetch = {
   "jira": "https://jira.cms.gov/secure/ViewProfile.jspa",
   "confluence": "https://confluence.cms.gov/users/viewmyprofile.action",
-  "miro": "https://miro.com/app/dashboard/"
+  "miro": "https://miro.com/app/settings/"
 };
 var intervalID = null;
 
