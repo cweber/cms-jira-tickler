@@ -23,7 +23,7 @@ function tickleJIRA() {
   var u;
   if (window.location.host.match("confluence")) {
     u = pageToFetch["confluence"];
-  } else {
+  } else if {
     u = pageToFetch["jira"];
   } else {
     u = pageToFetch["miro"];
